@@ -76,9 +76,9 @@
     --step-6:  clamp(1.25rem, calc(1.08rem + 0.35vw), 1.45rem); /* h6 */ 
     --step-5:  clamp(1.56rem, calc(1.18rem + 0.50vw), 1.80rem); /* h5 */
     --step-4:  clamp(1.94rem, calc(1.30rem + 0.70vw), 2.20rem); /* h4 */
-    --step-3:  clamp(2.44rem, calc(1.42rem + 0.95vw), 2.80rem); /* h3 */
+    --step-3:  20px; /* clamp(2.44rem, calc(1.42rem + 0.95vw), 2.80rem); /* h3 */
     --step-2:  clamp(2.875rem, calc(1.70rem + 1.50vw), 2.875rem); /* h1 */
-    --step-1:  clamp(3.06rem, calc(1.56rem + 1.25vw), 3.60rem); /* h2 */
+    --step-1:  28px; /* clamp(3.06rem, calc(1.56rem + 1.25vw), 3.60rem); /* h2 */
 
     /* Fonts */
     --font-asap-regular: "Asap-Regular", Geneva, sans-serif;

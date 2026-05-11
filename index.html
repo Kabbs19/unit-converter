@@ -8,23 +8,23 @@
 </head>
 <body>
     <section>
-        <h1></h1>
-        <input type="number" id="number-el">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="text" id="number-input">
         <button id="convert-btn">Convert</button>
     </section>
 
     <section>
         <div id="length">
             <h3>Length (Meter/Feet)</h3>
-
+            <p><span class="input-value"></span> meters = <span id="feet-el"></span> feet | <span class="input-value"></span> feet = <span id="meters-el"></span> meters</p>
         </div>
         <div id="volume">
             <h3>Volume (Liters/Gallons)</h3>
-
+            <p><span class="input-value"></span> gallons = <span id="liters-el"></span> liters | <span class="input-value"></span> liters = <span id="gallons-el"></span> gallons</p>
         </div>
         <div id="mass">
             <h3>Mass (Kilograms/Pounds)</h3>
-
+            <p id="kilograms-el"></p> | <p id="pounds-el"></p>
         </div>
     </section>
 
