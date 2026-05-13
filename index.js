@@ -9,7 +9,17 @@ const gallons = document.getElementById("gallons-el")
 const kilograms = document.getElementById("kilograms-el")
 const pounds = document.getElementById("pounds-el")
 
-numberInput.addEventListener("input", convertNumber)
+numberInput.addEventListener("input", () => {
+    resizeNumberInput()
+    convertNumber()
+})
+
+resizeNumberInput()
+
+function resizeNumberInput() {
+    const characterCount = Math.max(numberInput.value.length, 1)
+    numberInput.style.width = `${characterCount + 2}ch`
+}
 
 function convertNumber() {
     const number = Number(numberInput.value)

@@ -32,6 +32,7 @@
     --light-navy: hsl(215 30.4% 22%); /* #273549 */
     --white: hsl(0 0% 100%);
 
+
     /* Semantic tokens */
     --bg: var(--white);
     --fg: var(--gray);
@@ -184,12 +185,18 @@
     }
 
   :where(input, select, textarea) {
-    /* width: auto; */ 
-    padding: 5px 10px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    background: var(--bg); 
-    color: inherit;
+    background: var(--purple); 
+    color: var(--white);
+    text-align: center;
+    font-family: var(--font-asap-bold);
+    font-size: 58px;
+    min-width: 120px;
+    max-width: min(300px, 100%);
+    display: inline-block;
+    height: 85px;
+    border: 2px solid var(--light-purple);
+    border-radius: 5px;
+    
   }
   input::placeholder, textarea::placeholder
   { color: var(--muted); }
@@ -200,7 +207,7 @@
     }
 
   input, select, textarea {
-    accent-color: var(--brand-6);
+    accent-color: black;
     }
 
   fieldset {
@@ -489,4 +496,19 @@
 }
 
 
-/* Playground */
+/* Project CSS */
+
+#number-hero {
+  height: 285px;
+  width: 100%;
+  background-color: var(--purple);
+
+}
+
+.font-white {
+  color: var(--white);
+}
+
+.text-center {
+  text-align: center;
+}
