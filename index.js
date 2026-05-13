@@ -22,4 +22,6 @@ function convertNumber() {
     feet.innerHTML = `${(number * 3.281).toFixed(3)}`
     liters.innerHTML = `${(number * 4.546).toFixed(3)}`
     gallons.innerHTML = `${(number / 4.546).toFixed(3)}`
+    kilograms.innerHTML = `${(number / 2.205).toFixed(3)}`
+    pounds.innerHTML = `${(number * 2.205).toFixed(3)}`
 }
